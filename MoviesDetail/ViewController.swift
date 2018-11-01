@@ -10,9 +10,24 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var lbMovie: UILabel!
+    @IBOutlet weak var lbDirector: UILabel!
+    @IBOutlet weak var lbDetail: UILabel!
+    @IBOutlet weak var lbRating: UILabel!
+    @IBOutlet weak var lbYear: UILabel!
+    @IBOutlet weak var imPoster: UIImageView!
+    
+    var movie: Movies!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        lbMovie.text = movie.movie
+        lbDirector.text = movie.director
+        lbDetail.text = movie.detail
+        lbRating.text = movie.rating
+        lbYear.text = movie.year
+        imPoster.image = movie.poster
+        
     }
 
 

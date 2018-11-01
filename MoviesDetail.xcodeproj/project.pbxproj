@@ -12,6 +12,8 @@
 		633000B82161377D0003C057 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 633000B62161377D0003C057 /* Main.storyboard */; };
 		633000BA2161377E0003C057 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 633000B92161377E0003C057 /* Assets.xcassets */; };
 		633000BD2161377E0003C057 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 633000BB2161377E0003C057 /* LaunchScreen.storyboard */; };
+		633000C7216138790003C057 /* Movies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633000C6216138790003C057 /* Movies.swift */; };
+		633000C9216166760003C057 /* MoviesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633000C8216166760003C057 /* MoviesTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		633000B92161377E0003C057 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		633000BC2161377E0003C057 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		633000BE2161377E0003C057 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		633000C6216138790003C057 /* Movies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movies.swift; sourceTree = "<group>"; };
+		633000C8216166760003C057 /* MoviesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				633000B22161377D0003C057 /* AppDelegate.swift */,
 				633000B42161377D0003C057 /* ViewController.swift */,
 				633000B62161377D0003C057 /* Main.storyboard */,
+				633000C8216166760003C057 /* MoviesTableViewController.swift */,
+				633000C6216138790003C057 /* Movies.swift */,
 				633000B92161377E0003C057 /* Assets.xcassets */,
 				633000BB2161377E0003C057 /* LaunchScreen.storyboard */,
 				633000BE2161377E0003C057 /* Info.plist */,
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				633000C9216166760003C057 /* MoviesTableViewController.swift in Sources */,
 				633000B52161377D0003C057 /* ViewController.swift in Sources */,
 				633000B32161377D0003C057 /* AppDelegate.swift in Sources */,
+				633000C7216138790003C057 /* Movies.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
