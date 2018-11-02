@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>movie</key>
+		<string>Cinema Paradiso</string>
+		<key>director</key>
+		<string>Giuseppe Tornatore</string>
+		<key>poster</key>
+		<string>http://bugsracer.com/Swift/images/cinemaparadiso.png</string>
+		<key>rating</key>
+		<string>IMDB 8.5</string>
+		<key>detail</key>
+		<string>A filmmaker recalls his childhood when falling in love with the pictures at the cinema of his home village and forms a deep friendship with the cinema&apos;s projectionist.</string>
+		<key>year</key>
+		<string>1988</string>
+	</dict>
+	<dict>
+		<key>movie</key>
+		<string>The Lord Of The Rings</string>
+		<key>director</key>
+		<string>Peter Jackson</string>
+		<key>poster</key>
+		<string>http://bugsracer.com/Swift/images/thelordoftherings.png</string>
+		<key>rating</key>
+		<string>IMDB 8.8</string>
+		<key>detail</key>
+		<string>A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron.</string>
+		<key>year</key>
+		<string>2001</string>
+	</dict>
+</array>
+</plist>

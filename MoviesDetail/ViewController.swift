@@ -17,16 +17,20 @@ class ViewController: UIViewController {
     @IBOutlet weak var lbYear: UILabel!
     @IBOutlet weak var imPoster: UIImageView!
     
-    var movie: Movies!
+    var movie: NSDictionary!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        lbMovie.text = movie.movie
-        lbDirector.text = movie.director
-        lbDetail.text = movie.detail
-        lbRating.text = movie.rating
-        lbYear.text = movie.year
-        imPoster.image = movie.poster
+        lbMovie.text = movie.value(forKey: "movie") as? String
+        lbDirector.text = movie.value(forKey: "director") as? String
+        lbDetail.text = movie.value(forKey: "detail") as? String
+        lbRating.text = movie.value(forKey: "rating") as? String
+        lbYear.text = movie.value(forKey: "year") as? String
+        let sUrl = movie.value(forKey: "poster") as? String
+        let url = URL(string: sUrl!)
+        let imgData = NSData(contentsOf: url!)
+        imPoster.image = UIImage(data: imgData! as Data)
+         
         
     }
 

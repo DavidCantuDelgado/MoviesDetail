@@ -26,19 +26,19 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Movie" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MB1-C3-mux">
-                                            <rect key="frame" x="16" y="11" width="46" height="21"/>
+                                            <rect key="frame" x="16" y="21" width="46" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Director:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="myL-eI-gfy">
-                                            <rect key="frame" x="16" y="62" width="67" height="21"/>
+                                            <rect key="frame" x="16" y="72" width="67" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Director" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5PS-cM-A0m">
-                                            <rect key="frame" x="16" y="83" width="62" height="21"/>
+                                            <rect key="frame" x="16" y="93" width="62" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
@@ -53,9 +53,9 @@
                                     </subviews>
                                     <constraints>
                                         <constraint firstItem="5PS-cM-A0m" firstAttribute="top" secondItem="myL-eI-gfy" secondAttribute="bottom" id="2re-El-CMW"/>
+                                        <constraint firstItem="MB1-C3-mux" firstAttribute="top" secondItem="fHH-1X-PO4" secondAttribute="topMargin" constant="10" id="66e-cV-kl0"/>
                                         <constraint firstItem="5PS-cM-A0m" firstAttribute="leading" secondItem="fHH-1X-PO4" secondAttribute="leadingMargin" id="AqI-9x-Hhx"/>
                                         <constraint firstItem="myL-eI-gfy" firstAttribute="top" secondItem="MB1-C3-mux" secondAttribute="bottom" constant="30" id="CD0-nP-I91"/>
-                                        <constraint firstItem="MB1-C3-mux" firstAttribute="top" secondItem="fHH-1X-PO4" secondAttribute="topMargin" id="D8L-B0-YcX"/>
                                         <constraint firstItem="N9Q-Hz-Vgc" firstAttribute="top" secondItem="fHH-1X-PO4" secondAttribute="top" constant="10" id="FuM-bC-qRk"/>
                                         <constraint firstAttribute="trailing" secondItem="N9Q-Hz-Vgc" secondAttribute="trailing" id="GqE-24-H5I"/>
                                         <constraint firstItem="myL-eI-gfy" firstAttribute="leading" secondItem="fHH-1X-PO4" secondAttribute="leadingMargin" id="Zpp-P7-aHl"/>
